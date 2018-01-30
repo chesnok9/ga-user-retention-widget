@@ -1,6 +1,6 @@
 # ga-user-retention-widget
 
-An upBoard widget to show Google Analytics Users Time report
+An upBoard widget to show Google Analytics Users Retention report
 
 ## Installation
 
