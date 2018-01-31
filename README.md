@@ -47,6 +47,17 @@ To test locally edit /src/components/widgetComponent/widgetComponent.js and chan
     }
 ```
 
+or set up values directly in /src/components/GAUserRetentionWidget/GAUserRetentionWidget.js
+
+```
+this.state = {
+  ...
+  client_id: "[client-id]", // Google Client ID
+  view_id: "ga:[view-id]", // Google View ID
+  ...
+}
+```
+
 Run the service at one command window:
 ```
 npm run dev_hot
